@@ -3,8 +3,11 @@
 	The original file contains 10299 measurements (one-per-row) divided in two sets:
 		- train (7352)
 		- test (2947)
+		
 	Each measurement is a vector with 561-entries in the interval [-1, 1].
+	
 	For each row, there is an associated subject and an activiy, which are described below:
+	
 	- Subject
 		Description: Number between 1 and 30 that identifies the subject
 		Type: integer
