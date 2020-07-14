@@ -5,7 +5,7 @@
 	
 	- Activity
 		Name of the activity realized by the subject
-		Type: string
+		Type: categoric
 		Values:
 			WALKING
 			WALKING_UPSTAIRS
@@ -32,7 +32,7 @@
 	
 	- Activity
 		Name of the activity realized by the subject
-		Type: string
+		Type: categoric
 		Values:
 			WALKING
 			WALKING_UPSTAIRS
