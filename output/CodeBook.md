@@ -25,7 +25,7 @@
 More information about the dataset used can be found at [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Calculations
-For each row, the mean and the standard deviation have been calculated; then, the columns of the activity table, the subject table and the computed values have been binded.
+For each row, the mean and the standard deviation have been calculated; then, the columns of the activity table, the subject table and the computed values have been binded. More information about the computations can be found at the [script](https://github.com/tdsh-ux/ProgrammingAssignment/blob/master/run_analysis.R).
 	
 ## Modified files:
 ### File: summary_values
