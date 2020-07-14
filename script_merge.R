@@ -28,10 +28,10 @@ training_labels_meaningful <- training_labels %>%
   inner_join(activity_labels)
 
 
-#Rename the columns
+#3 - Rename the columns
 names(training_values_transpose) <- training_labels_meaningful[[2]]
 
-#Joining the data
+#4 - Joining the data
 activity_recognition <- cbind(training_values_transpose, test_values_transpose)
 
 #---------------------------------------------------------------------------------part_I: merge the datasets
@@ -77,4 +77,5 @@ summary_values_subject <- cbind(subject_label, summary_values[, 1:2])
 if(!dir.exists(paste0(getwd(), "/output"))){dir.create(paste0(getwd(), "/output"))}
 write.table(summary_values, paste0(getwd(), "/output/summary_values.txt"), sep = "\t", row.names = FALSE)
 write.table(summary_values_subject, paste0(getwd(), "/output/summary_values_subject.txt"), sep = "\t", row.names = FALSE)
-#--------------------------------------------------------------------------------part_V: mean by activity.
+
+#--------------------------------------------------------------------------------part_V: mean by activity and by subject.
