@@ -22,7 +22,7 @@
 			5 - STANDING
 			6 - LAYING
 	
-More information about the dataset used can be found at (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)[Human Activity Recognition Using Smartphones].
+More information about the dataset used can be found at [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 	
 ## Modified files:
 ### File: summary_values
