@@ -34,7 +34,7 @@ names(training_values_transpose) <- training_labels_meaningful[[2]]
 #4 - Joining the data
 activity_recognition <- cbind(training_values_transpose, test_values_transpose)
 
-#---------------------------------------------------------------------------------part_I: merge the datasets
+#---------------------------------------------------------------------------------part_I: merge the datasets.
 #Vectors for summary values
 mean_measurements <- vector()
 std_measurements <- vector()
