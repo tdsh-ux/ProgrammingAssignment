@@ -1,6 +1,6 @@
 # CodeBook.md
 ## File: summary_values
-
+	COLUMNS:
 	- Activity
 		Name of the activity realized by the subject
 		Type: string
@@ -20,7 +20,7 @@
 		Type: numeric
 		
 ## File: summary_values_subject
-	
+	COLUMNS:	
 	- Subject
 		Number between 1 and 30 that identifies the subject
 		Type: integer
