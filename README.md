@@ -1,6 +1,6 @@
 # ProgrammingAssignment
 Programming assignment of Getting and Cleaning Data.
-This assignment consists in cleaning the data of [this experiment](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), which can be downloaded at [this site](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+This assignment consists in cleaning the data of [this experiment](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), which can be downloaded at [this site](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The [orignal README](https://github.com/tdsh-ux/ProgrammingAssignment/blob/master/README.txt) contains a lot of information about the data.
 
 The [code book](https://github.com/tdsh-ux/ProgrammingAssignment/blob/master/CodeBook.md) contain informations about the tables in [output](https://github.com/tdsh-ux/ProgrammingAssignment/tree/master/output).
 
