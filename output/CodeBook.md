@@ -4,7 +4,7 @@
 	COLUMNS:
 	
 	- Activity
-		Name of the activity realized by the subject
+		Description: Name of the activity realized by the subject
 		Type: categoric
 		Values:
 			WALKING
@@ -15,11 +15,11 @@
 			LAYING
 			
 	- Mean
-		Mean of the measurements made, normalized and bounded within [-1,1]
+		Description: Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
 	
 	- Standard_Deviation
-		Standard deviation of the measurements made, normalized and bounded within [-1, 1]
+		Description: Standard deviation of the measurements made, normalized and bounded within [-1, 1]
 		Type: numeric
 		
 ## File: summary_values_subject
@@ -27,11 +27,11 @@
 	COLUMNS:
 	
 	- Subject
-		Number between 1 and 30 that identifies the subject
+		Description: Number between 1 and 30 that identifies the subject
 		Type: integer
 	
 	- Activity
-		Name of the activity realized by the subject
+		Description: Name of the activity realized by the subject
 		Type: categoric
 		Values:
 			WALKING
@@ -42,11 +42,11 @@
 			LAYING
 			
 	- Mean
-		Mean of the measurements made, normalized and bounded within [-1,1]
+		Description: Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
 	
 	- Standard_Deviation
-		Standard deviation of the measurements made, normalized and bounded within [-1, 1]
+		Description: Standard deviation of the measurements made, normalized and bounded within [-1, 1]
 		Type: numeric
 		
 					
