@@ -1,7 +1,7 @@
-#CodeBook.md
-##File: summary_values
+# CodeBook.md
+## File: summary_values
 
-	###Activity
+	### Activity
 		Name of the activity realized by the subject
 		Type: string
 		Values:
@@ -11,21 +11,21 @@
 			SITTING
 			STANDING
 			LAYING
-	###Mean
+	### Mean
 		Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
 	
-	###Standard_Deviation
+	### Standard_Deviation
 		Standard deviation of the measurements made, normalized and bounded within [-1, 1]
 		Type: numeric
 		
-##File: summary_values_subject
+## File: summary_values_subject
 	
-	###Subject
+	### Subject
 		Number between 1 and 30 that identifies the subject
 		Type: integer
 	
-	###Activity
+	### Activity
 		Name of the activity realized by the subject
 		Type: string
 		Values:
@@ -35,11 +35,11 @@
 			SITTING
 			STANDING
 			LAYING
-	###Mean
+	### Mean
 		Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
 	
-	###Standard_Deviation
+	### Standard_Deviation
 		Standard deviation of the measurements made, normalized and bounded within [-1, 1]
 		Type: numeric
 		
