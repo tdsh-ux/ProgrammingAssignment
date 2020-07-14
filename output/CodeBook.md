@@ -1,6 +1,8 @@
 # CodeBook.md
 ## File: summary_values
+
 	COLUMNS:
+	
 	- Activity
 		Name of the activity realized by the subject
 		Type: string
@@ -11,6 +13,7 @@
 			SITTING
 			STANDING
 			LAYING
+			
 	- Mean
 		Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
@@ -20,7 +23,9 @@
 		Type: numeric
 		
 ## File: summary_values_subject
-	COLUMNS:	
+
+	COLUMNS:
+	
 	- Subject
 		Number between 1 and 30 that identifies the subject
 		Type: integer
@@ -35,6 +40,7 @@
 			SITTING
 			STANDING
 			LAYING
+			
 	- Mean
 		Mean of the measurements made, normalized and bounded within [-1,1]
 		Type: numeric
